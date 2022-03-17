@@ -31,13 +31,14 @@ class _SpalshScreenState extends State<SpalshScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0XFF202020),
       body: Stack(
         children: [
-          Image.asset(
-            "assets/bgSplash.png",
+          Image(
+            image: AssetImage("assets/BG Splash Screen.png"),
           ),
-          Image.asset(
-            "assets/Group 2.png",
+          Image(
+            image: AssetImage("assets/Splash Screen Title.png"),
           ),
           Align(
             alignment: Alignment.bottomLeft,
