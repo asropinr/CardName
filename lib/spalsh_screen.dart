@@ -19,6 +19,7 @@ class _SpalshScreenState extends State<SpalshScreen> {
     startSplashScreen();
   }
 
+//star splashscreen timer and navigation page to homepagescreen
   startSplashScreen() async {
     var duration = const Duration(seconds: 5);
     return Timer(duration, () {
@@ -31,7 +32,6 @@ class _SpalshScreenState extends State<SpalshScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0XFF202020),
       body: Stack(
         children: [
           Image(
